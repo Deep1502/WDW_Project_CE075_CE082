@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDW Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            position: relative;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <h1 class="navbar-brand">Memory Game</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#intro">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#advantages">Advantages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#howtoplay">How to play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game">Game</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="intro" class="container-fluid bg-primary text-white" style="padding: 80px 20px;">
+        <div class="row">
+            <div class="col-12 col-md-6 p-5">
+                <h1 class="display-4 text-capitalize">Memory games</h1>
+                <p>
+                    As we grow up, the importance of learning through playing increases.
+                    Through games and playing, we can nurture our imagination, improve our ability to listen, as well as
+                    develop important cognitive skills that will aid our future development.
+                    And memory games are a vital part of this.
+                </p>
+                <p>
+                    Everyone has played some kind of memory game at some point.
+                    Whether that’s spot the difference, simple pairing games using playing cards, or even doing a
+                    crossword.
+                    They all require the players to use their memory to complete the game.
+                    And in doing so, users are developing their key skills.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-5">
+                <img src="ss1.png" height="100%" width="100%" alt="Memory Game" title="Memory Game">
+            </div>
+        </div>
+    </div>
+    <div id="advantages" class="container-fluid bg-warning" style="padding: 80px 20px;">
+        <h1 class="display-4 text-capitalize">Advantages</h1>
+        <p>So just how do memory games help us develop?</p>
+        <ul>
+            <li>
+                Playing memory games can improve other brain functions, such as attention, concentration, and focus.
+            </li>
+            <li>
+                Memory games give space to critical thinking and that helps us nurture our attention to detail.
+            </li>
+            <li>
+                Memory games can improve visual recognition. With many memory games based on spotting differences, or
+                linking two related images, we improve our visual discrimination. This will lead to an acceleration in
+                distinguishing images from one and another.
+            </li>
+            <li>
+                Short-term memory is key to playing memory games and playing them often will improve function in this
+                area. A good short-term memory can improve a person's long-term memory too. Both are linked and being
+                able to move things from your short-term memory into long-term will improve learning in other areas.
+            </li>
+            <li>
+                Though memory games are a short-term boost, players have to plan their moves as they go. From revealing
+                a card to plotting their next move, we can learn the importance of thinking ahead and plotting our next
+                choice.
+            </li>
+        </ul>
+    </div>
+    <div id="howtoplay" class="container-fluid bg-danger text-white" style="padding:80px 20px;">
+        <h1 class="display-4 text-capitalize">How to play</h1>
+        <p>The following are the rules you have to follow while playing the game:</p>
+        <ul>
+            <li>
+                In a deck of paired cards, the player needs to match each pair to win the game.
+            </li>
+            <li>
+                You can start the game by clicking on any card.
+            </li>
+            <li>
+                The timer will start as soon as you open a pair of cards.
+            </li>
+            <li>
+                Try to remember the unmatched cards and match them together as fast as possible with minimum possible moves.
+            </li>
+            <li>
+                Once you match the paired cards they will remain open until the end.
+            </li>
+            <li>
+                The matched cards are shown in green color, opening unmatched cards will be shown in red and will be closed again, and the single opened card in blue color.
+            </li>
+            <li>
+                The game ends once all cards are matched.
+            </li>
+            <li>
+                Your rating will be based on your moves used to complete the game.
+            </li>
+            <li>
+                If you want to restart the game you can press restart icon or press <kbd>Play again</kbd> button after one game ends in the popup window.
+            </li>
+        </ul>
+    </div>
+    <div id="game" class="container-fluid bg-success" style="padding: 80px 20px;">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+        	<span class="moves">0</span> Move(s)
+            <div class="timer">
+            </div>
+            <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        <ul class="deck" id="card-deck">
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="bolt" >
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Congratulations 🎉</h2>
+                <a class="close" href=# >×</a>
+                <div class="content-1">
+                    Congratulations you're a winner 🎉🎉
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    Play again 😄</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-white" style="padding: 80px 20px;">
+        <p>Your feedback matters! Please give your feedback to us...</p>
+        <form class="row g-3 needs-validation" method="post" novalidate>
+            <div class="col-md-4">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" id="name" required>
+                <div class="invalid-feedback">
+                    Please enter a name!
+                </div>
+                <div class="valid-feedback">
+                    Name looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email!
+                </div>
+                <div class="valid-feedback">
+                    Email looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="feedback" class="form-label">Feedback</label>
+                <input type="text" class="form-control" name="feedback" id="feedback" required>
+                <div class="invalid-feedback">
+                    Please enter your feedback!
+                </div>
+                <div class="valid-feedback">
+                    Feedback looks good!
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+        <hr>
+        <p>Created by:</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-12">Deep Patel</div>
+                    <div class="col-12">
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" title="Facebook" role="button">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" title="Twitter" role="button">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com" title="Google" role="button">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" title="Instagram" role="button">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://in.linkedin.com" title="LinkedIn" role="button">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com" title="GitHub" role="button">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-12">Het Patel</div>
+                    <div class="col-12">
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" title="Facebook" role="button">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" title="Twitter" role="button">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com" title="Google" role="button">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" title="Instagram" role="button">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://in.linkedin.com" title="LinkedIn" role="button">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com" title="GitHub" role="button">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
